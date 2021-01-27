@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CLAPMStatusMenu_Example' do
+  pod 'CLAPMStatusMenu', :path => '../'
+
+  target 'CLAPMStatusMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
