@@ -20,9 +20,23 @@ it, simply add the following line to your Podfile:
 pod 'CLAPMStatusMenu'
 ```
 
+## Usage
+
+#### Objective-C
+```
+[CLAPMMonitor startMonitoring];
+[CLAPMStatusMenu showInWindow: UIApplication.sharedApplication.keyWindow];
+```
+
+#### Swift
+```
+G7APMMonitor.startMonitoring()
+G7APMStatusMenu.show(in: UIApplication.shared.keyWindow!)
+```
+
 ## Author
 
-lixiang, lixiang@g7.com.cn
+cleexiang, cleexiang@126.com
 
 ## License
 
