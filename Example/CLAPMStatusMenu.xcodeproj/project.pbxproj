@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		1834C3FBF66C6A757F9D8062 /* Pods-CLAPMStatusMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLAPMStatusMenu_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CLAPMStatusMenu_Tests/Pods-CLAPMStatusMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2CE7F912F8BCB611D22B37C5 /* Pods-CLAPMStatusMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLAPMStatusMenu_Tests.release.xcconfig"; path = "Target Support Files/Pods-CLAPMStatusMenu_Tests/Pods-CLAPMStatusMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3500A1F9F80C6437E2A09E1A /* CLAPMStatusMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CLAPMStatusMenu.podspec; path = ../CLAPMStatusMenu.podspec; sourceTree = "<group>"; };
-		53A741B725AF75B2BFFE0234 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3500A1F9F80C6437E2A09E1A /* CLAPMStatusMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CLAPMStatusMenu.podspec; path = ../CLAPMStatusMenu.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		53A741B725AF75B2BFFE0234 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CLAPMStatusMenu_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLAPMStatusMenu_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		88A583FD1D9E75068A31F91E /* Pods-CLAPMStatusMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLAPMStatusMenu_Example.debug.xcconfig"; path = "Target Support Files/Pods-CLAPMStatusMenu_Example/Pods-CLAPMStatusMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AC00FAE84A4E85CD5F60E5E9 /* Pods-CLAPMStatusMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLAPMStatusMenu_Example.release.xcconfig"; path = "Target Support Files/Pods-CLAPMStatusMenu_Example/Pods-CLAPMStatusMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C3A757F063F1A06D98F68C35 /* Pods_CLAPMStatusMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLAPMStatusMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5DA365A0A5E7635C1CAA8BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F5DA365A0A5E7635C1CAA8BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				1834C3FBF66C6A757F9D8062 /* Pods-CLAPMStatusMenu_Tests.debug.xcconfig */,
 				2CE7F912F8BCB611D22B37C5 /* Pods-CLAPMStatusMenu_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
