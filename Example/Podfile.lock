@@ -1,0 +1,16 @@
+PODS:
+  - CLAPMStatusMenu (0.1.0)
+
+DEPENDENCIES:
+  - CLAPMStatusMenu (from `../`)
+
+EXTERNAL SOURCES:
+  CLAPMStatusMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CLAPMStatusMenu: 58cb8571c96fede7d1fa14b4e289632410ea4f13
+
+PODFILE CHECKSUM: 403d2baa42ba0723624f7b3d307a7e5f29ba55ba
+
+COCOAPODS: 1.10.0
