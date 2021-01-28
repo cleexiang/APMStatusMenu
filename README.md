@@ -30,8 +30,8 @@ pod 'CLAPMStatusMenu'
 
 #### Swift
 ```
-G7APMMonitor.startMonitoring()
-G7APMStatusMenu.show(in: UIApplication.shared.keyWindow!)
+CLAPMMonitor.startMonitoring()
+CLAPMStatusMenu.show(in: UIApplication.shared.keyWindow!)
 ```
 
 ## Author
